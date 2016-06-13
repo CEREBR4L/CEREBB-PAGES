@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+
 .blue  	{ color: #5865db !important; }
 .red   	{ color: #d34949 !important; }
 .green 	{ color: #73f2ac !important; }
@@ -23,43 +25,46 @@
 .border-r-10 { border-radius: 10px; }
 .border-r-15 { border-radius: 15px; }
 
-.margin-5  { margin: 5px;  }
-.margin-10 { margin: 10px; }
-.margin-15 { margin: 15px; }
-.margin-20 { margin: 20px; }
+.margin-5  { margin: 5px !important;  }
+.margin-10 { margin: 10px !important; }
+.margin-15 { margin: 15px !important; }
+.margin-20 { margin: 20px !important; }
 
-.padding-5 	{ padding: 5px;  }
-.padding-10 { padding: 10px; }
-.padding-15 { padding: 15px; }
-.padding-20 { padding: 20px; }
+.padding-5 	{ padding: 5px !important;  }
+.padding-10 { padding: 10px !important; }
+.padding-15 { padding: 15px !important; }
+.padding-20 { padding: 20px !important; }
 
-.h1, .h2, .h3, .h4, .h5, .h6{
-	font-family: sans-serif;
-	margin: 0px;
-	padding: 10px;
+.h1, .h2, .h3, .h4, .h5, .h6, .p, .button{
+  font-family: 'Oxygen', sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
-.h1{ font-size: 2.25em; }
-.h2{ font-size: 2em; }
-.h3{ font-size: 1.75em; }
-.h4{ font-size: 1.5em; }
-.h5{ font-size: 1.25em; opacity: 0.4; }
-.h6{ font-size: 1em; opacity: 0.4; }
+.h1{ font-size: 2.25em; font-weight: 700}
+.h2{ font-size: 2em; font-weight: 700}
+.h3{ font-size: 1.75em; font-weight: 400}
+.h4{ font-size: 1.5em; font-weight: 400}
+.h5{ font-size: 1.25em; opacity: 0.6; font-weight: 300}
+.h6{ font-size: 1em; opacity: 0.6; font-weight: 300}
 
 .p{
-	font-family: sans-serif;
-	font-size: 1em;
+  font-family: sans-serif;
+  font-size: 1em;
 }
 
 .button{
-	background-color: none;
-	border: 2px solid #000;
-	padding: 10px;
-	color: #000;
+  background-color: none;
+  border: 2px solid #000;
+  padding: 10px;
+  color: #000;
 }
 
 .button, .button:focus, .button::-moz-focus-inner{
-	-moz-appearance: none;
-	outline: 0 !important;
-	border: 0;
+  -moz-appearance: none;
+  outline: 0 !important;
+  border: 0;
 }
+
+.link{ text-decoration: none; }
+.link:hover{ opacity: 0.7; }
