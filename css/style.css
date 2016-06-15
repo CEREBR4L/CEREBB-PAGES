@@ -1,11 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
 
+body{ padding: 0; margin: 0; }
+
 .blue  	{ color: #5865db !important; }
 .red   	{ color: #d34949 !important; }
 .green 	{ color: #73f2ac !important; }
 .pink  	{ color: #f50057 !important; }
 .white 	{ color: #ffffff !important; }
 .l-gray { color: #cdcdcd !important; }
+.m-gray { color: #646464 !important; }
 .d-gray { color: #2d2d2d !important; }
 .black  { color: #000000 !important; }
 
@@ -15,6 +18,7 @@
 .bg-pink   { background-color: #f50057 !important; }
 .bg-white  { background-color: #ffffff !important; }
 .bg-l-gray { background-color: #ececec !important; }
+.bg-m-gray { background-color: #646464 !important; }
 .bg-d-gray { background-color: #2d2d2d !important; }
 .bg-black  { background-color: #000000 !important; }
 
@@ -24,6 +28,7 @@
 .border-pink   { border: 2px solid #f50057 !important; }
 .border-white  { border: 2px solid #ffffff !important; }
 .border-l-gray { border: 2px solid #ececec !important; }
+.border-m-gray { border: 2px solid #646464 !important; }
 .border-d-gray { border: 2px solid #2d2d2d !important; }
 .border-black  { border: 2px solid #000000 !important; }
 
@@ -32,10 +37,21 @@
 .margin-15 { margin: 15px !important; }
 .margin-20 { margin: 20px !important; }
 
+.margin-v-5  { margin: 5px  0 !important; }
+.margin-v-10 { margin: 10px 0 !important; }
+.margin-v-15 { margin: 15px 0 !important; }
+.margin-v-20 { margin: 20px 0 !important; }
+
 .padding-5  { padding: 5px  !important; }
 .padding-10 { padding: 10px !important; }
 .padding-15 { padding: 15px !important; }
 .padding-20 { padding: 20px !important; }
+
+.padding-v-5  { padding: 5px  0 !important; }
+.padding-v-10 { padding: 10px 0 !important; }
+.padding-v-15 { padding: 15px 0 !important; }
+.padding-v-20 { padding: 20px 0 !important; }
+
 
 .t-left   { text-align: left; }
 .t-center { text-align: center; }
@@ -44,7 +60,7 @@
 .border-r-10 { border-radius: 10px; }
 .border-r-15 { border-radius: 15px; }
 
-.h1, .h2, .h3, .h4, .h5, .h6, .p, .button{
+.h1, .h2, .h3, .h4, .h5, .h6, .p, .button, .nav-list-item{
   font-family: 'Oxygen', sans-serif;
   margin: 0px;
   padding: 7px 0px;
@@ -61,6 +77,11 @@
   font-family: sans-serif;
   font-size: 1em;
   line-height: 1.25em;
+}
+
+.p-big { 
+  font-size: 1.3em !important;
+  font-weight: 300 !important;
 }
 
 .button{
@@ -88,7 +109,52 @@
   display: inline-block;
 }
 
+.cont{
+  width: 75%;
+  margin: 0 auto;
+}
+
+.nav{
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+}
+
+.nav-text{
+  display: inline-block;
+}
+
+.nav-list{
+  display: inline-block;
+  float: right;
+  padding: 13px 50px;
+  margin: 0px; 
+}
+
+.nav-list-item{
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+.hero{
+  width: 100%;
+  height: 750px;
+  padding: 0px;
+}
+
+.hero-text{
+  padding-top: 350px;
+  text-align: center; 
+}
+
 #carded{
   width: 400px;
   height: 200px;
+}
+
+#footer{
+  padding: 10px;
+}
+
+#home{
+  width: 100%;
 }
