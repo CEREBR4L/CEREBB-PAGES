@@ -146,6 +146,16 @@ body{ padding: 0; margin: 0; }
   text-align: center; 
 }
 
+.img-array{ width: 90%; margin: 0 auto; }
+
+.img-array-item{
+  display: inline-block;
+  background-position: center;
+  width: 20%;
+  height: 300px;
+  margin: 2%;
+}
+
 #carded{
   width: 400px;
   height: 200px;
@@ -158,3 +168,12 @@ body{ padding: 0; margin: 0; }
 #home{
   width: 100%;
 }
+
+#img-1 { background-image: url(../img/img-1.png); }
+#img-2 { background-image: url(../img/img-2.png); }
+#img-3 { background-image: url(../img/img-3.png); }
+#img-4 { background-image: url(../img/img-4.png); }
+#img-5 { background-image: url(../img/img-5.png); }
+#img-6 { background-image: url(../img/img-6.png); }
+#img-7 { background-image: url(../img/img-7.png); }
+#img-8 { background-image: url(../img/img-8.png); }
