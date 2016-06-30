@@ -117,6 +117,9 @@ body{ padding: 0; margin: 0; }
 .nav{
   width: 100%;
   padding: 20px 0px 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }
 
 .nav-text{
@@ -125,7 +128,6 @@ body{ padding: 0; margin: 0; }
 
 .nav-list{
   display: inline-block;
-  float: right;
   padding: 13px 50px;
   margin: 0px; 
 }
