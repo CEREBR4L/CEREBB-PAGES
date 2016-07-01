@@ -3,3 +3,8 @@
 Not sure where I am going to go with this but you know, we will see.
 
 You can have a look if you want too... [here!](http://cerebr4l.github.io/CEREBB-PAGES/)
+
+Todo: 
+- New landing page...
+- More built in CSS classes
+- Something else....
