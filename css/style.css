@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
 
-body{ padding: 0; margin: 0; }
+body, div, img{ padding: 0; margin: 0; }
 
 .blue  	{ color: #5865db !important; }
 .red   	{ color: #d34949 !important; }
@@ -150,14 +150,19 @@ body{ padding: 0; margin: 0; }
 
 }
 
-.img-array{ width: 90%; margin: 0 auto; }
+.img-array{ width: 100%; margin: 20px auto; }
 
 .img-array-item{
   display: inline-block;
   background-position: center;
-  width: 20%;
-  height: 300px;
-  margin: 2%;
+  background-size: cover;
+  width: 25%;
+  margin: -2px;
+}
+
+.img-array-item>img{
+  width: 100%;
+  visibility: hidden;
 }
 
 #carded{
