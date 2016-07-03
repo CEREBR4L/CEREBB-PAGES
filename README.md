@@ -7,4 +7,5 @@ You can have a look if you want too... [here!](http://cerebr4l.github.io/CEREBB-
 Todo: 
 - ~~New landing page...~~
 - More built in CSS classes
-- New image grid styles!
+- ~~New image grid styles!~~
+- Footer of some kind...
