@@ -10,4 +10,4 @@ Todo:
 - ~~New image grid styles!~~
 - Footer of some kind...
 - Side Bar
-- Side bar Navigation
+- Side bar Navigation (WIP)
