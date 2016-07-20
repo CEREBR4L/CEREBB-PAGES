@@ -9,5 +9,5 @@ Todo:
 - More built in CSS classes
 - ~~New image grid styles!~~
 - Footer of some kind...
-- Side Bar
-- Side bar Navigation (WIP)
+- Right Side Bar 
+- ~~Side bar Navigation (WIP)~~
